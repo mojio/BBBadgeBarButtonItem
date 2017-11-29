@@ -30,7 +30,9 @@
 @property BOOL shouldHideBadgeAtZero;
 // Badge has a bounce animation when value changes
 @property BOOL shouldAnimateBadge;
+@property BOOL growsToLeft;
 
 - (BBBadgeBarButtonItem *)initWithCustomUIButton:(UIButton *)customButton;
 
 @end
+
